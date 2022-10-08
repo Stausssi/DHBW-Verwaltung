@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DHBW-Administration</string>
+    <string name="navigation_drawer_open">Open sidebar</string>
+    <string name="navigation_drawer_close">Close sidebar</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="next">Next</string>
+    <string name="menu_vorlesung">Lectures</string>
+    <string name="menu_professors">Professors</string>
+    <string name="previous">Previous</string>
+    <string name="impressum">
+        \n\n
+        Duale Hochschule Baden–Württemberg Stuttgart
+        \n
+        Baden-Wuerttemberg Cooperative State University Stuttgart
+        \n
+        Jägerstraße 56
+        \n
+        70174 Stuttgart
+        \n
+        \n
+        info@dhbw-stuttgart.de
+        \n
+        www.dhbw-stuttgart.de
+        \n\n
+        The Baden-Württemberg Cooperative State University is a public corporation with legal capacity.
+        It is legally represented by the President of the Baden-Württemberg Cooperative State University, Prof. Arnold van Zyl (PhD).
+        The legal representative of the university location Stuttgart is the Rector Prof. Dr. Joachim Weber.
+        \n\n
+        Prof. Dr. Joachim Weber / Phone: 0711/1849-638 / E-Mail: joachim.weber@dhbw-stuttgart.de
+        \n
+        Sales tax identification number according to § 27 a sales tax law: DE287664832
+        \n
+        EORI Number: DE853160537241079
+        \n\n\n
+        Responsible supervisory authority
+        \n\n
+        Ministry of Science, Research and Art Baden-Württemberg
+        \n
+        Königstrasse 46
+        \n
+        D-70173 Stuttgart
+        \n
+        Phone: (+49) 711 / 279-0
+        \n
+        Fax: (+49) 711 / 279-3081
+        \n
+        poststelle@mwk.bwl.de
+        \n
+        Conceptual, editorial and technical responsibility
+        \n\n\n
+        Realization by the App editorial staff of the DHBW Stuttgart.
+        \n\n
+        In terms of content, responsible are the dedicated persons of the study programmes, study fields, study centres or organisational units
+        (IT Service Center, International Office, Library etc.) or the responsible students.
+        \n\n\n
+        Limitation of liability
+        \n\n
+        The contents of this application are created with the greatest possible care.
+        However, the provider does not guarantee the accuracy, completeness and timeliness of the content provided.
+        The use of the contents of the application is at the user\'s own risk.
+        Contributions identified by name reflect the opinion of the respective author and not always the opinion of the provider.
+        \n\n\n
+        External links
+        \n\n
+        This application contains links to third-party websites (\"external links\").
+        These websites are subject to the liability of the respective operators.
+        The provider has no influence on the current and future design and content of the linked sites.
+        The setting of external links does not mean that the provider adopts the contents behind the reference or link as his own.
+        The provider cannot reasonably be expected to constantly monitor the external links without concrete evidence of legal violations.
+        However, if violations of the law become known, such external links will be deleted immediately.
+        \n\n\n
+        Copyright and neighbouring rights
+        \n\n
+        The content published on this application is subject to German copyright and ancillary copyright law.
+        Any use not permitted by German copyright and ancillary copyright law requires the prior written consent of the provider or the respective rights holder.
+        This applies in particular to copying, editing, translation, storage, processing or reproduction of contents in databases or other electronic media and systems.
+        Contents and rights of third parties are marked as such.
+        Unauthorised reproduction or transmission of individual contents or complete pages is not permitted and is liable to prosecution.
+        Only the production of copies and downloads for personal, private and non-commercial use is permitted.
+        \n\n
+    </string>
+    <string name="menu_profile">Profile</string>
+
+    <string name="profile_greetings">Hello %1$s!</string>
+    <string name="profile_viewContent">Your %1$s: %2$s</string>
+    <string name="profile_hint">Enter your %1$s here</string>
+    <string name="profile_name">name</string>
+    <string name="profile_matNr">matriculation number</string>
+    <string name="profile_mail">email</string>
+    <string name="profile_class">class</string>
+    <string name="profile_major">major</string>
+    <string name="profile_deepening">direction of deepening</string>
+    <string name="profile_saveChanges">Save changes</string>
+    <string name="messages_changesSaved">Saving successful!</string>
+    <string name="messages_changesNotSaved">Something went wrong. Please try again!</string>
+    <string name="language_de">German</string>
+    <string name="language_en">English</string>
+    <string name="settings_language_header">Locale setttings</string>
+    <string name="settings_language_title">Locale</string>
+  
+    <string name="login_prompt_password">Password</string>
+    <string name="login_action_sign_in">Sign in</string>
+    <string name="login_action_sign_in_short">Sign in</string>
+    <string name="login_welcome">Welcome !</string>
+    <string name="login_invalid_username">Not a valid username</string>
+    <string name="login_invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">Login failed</string>
+    <string name="menu_logout">Logout</string>
+    <string name="login_stayLoggedIn">Stay logged in</string>
+
+    <string name="data_protection">
+        1. Information on the collection of personal data
+        \n
+        (1) In the following we inform about the collection of personal data when using our application. Personal data are all data that can be related to you personally, e.g. name, address, e-mail addresses, user behaviour.
+        \n
+        (2)  Responsible according to Art. 4 para. 7 EU Data Protection Basic Regulation (DS-GVO) is
+         the Baden-Wuerttemberg Cooperative State University Stuttgart legally represented by the President of the  Baden-Wuerttemberg Cooperative State University Stuttgart:
+        \n
+        Professor Arnold van Zyl
+        Friedrichstraße 14
+        70174 Stuttgart
+        Phone:  0711 / 320 660-0
+        Fax:  0711 / 320 660-66
+        Email:    poststelle@dhbw.de
+        Website: www.dhbw.de
+        \n
+        You can contact our data protection officer at our postal address with the addition \"the data protection officer\" or at datenschutz-app@dhbw.de.
+        \n
+        The processing of this e-mail address for purposes of advertising or market or opinion research is prohibited.
+        \n
+        (3) When you contact us by e-mail or via a contact form, the data you provide (your e-mail address, your name and telephone number if applicable) will be stored by us in order to answer your questions. We delete the data arising in this connection after storage is no longer necessary or restrict processing if there are legal storage obligations.
+        \n
+        (4)  If we use contracted service providers for individual functions of our offer, we will inform you in detail about the respective processes below. We will also state the criteria for the storage period.
+        \n\n
+        2. Your rights
+        \n
+        (1) You have the following rights in relation to the personal data concerning you:
+        \n
+            - Right to information (Art. 15 DS-GVO),
+            - Right of correction or deletion (Articles 16 and 17 DPA),
+            - Right to restrict processing (Art. 18 DPA),
+            - Right to object to processing (Article 21 DPA),
+            - Right to data transferability (Art. 20 DS-GVO).
+        \n
+        (2) You also have the right to complain to a data protection supervisory authority about the processing of your personal data by us (Art. 77 DS-GVO).
+        \n\n
+        3. Collection of personal data when visiting our application
+        \n
+        (1) The user must be registered to use the application. This serves to exclude unauthorized persons and third parties from using the application. The following data are required for registration:
+        \n
+            - E-mail address of the user
+            - Self-chosen password
+        \n
+        With the help of the e-mail, the DHBW application will retrieve the following additional personal data:
+        \n
+            - Full name of the user
+            - Semester and course of study of the user
+            - Course and course name of the user
+        \n
+        The above information is stored for the duration of the user\'s use of the application and then deleted.
+        \n
+        (2) Additional data are required to use the application. These are stored locally on the user\'s device and are not transmitted to us. This data is deleted from the user\'s device when the application is uninstalled:
+        \n
+        Device IDs and device properties
+        Films, photos, audio recordings
+        biometric data, e.g. fingerprints or facial recognition data
+        created notes and course/lecture data of the user
+        \n
+        (3) This application also uses backups. Here data of the app is stored on the device to be able to restore it in case of data loss in the application. Therefore this data is not automatically deleted when the application is uninstalled. However, the backups can be moved or deleted by the user at any time. The stored data includes all data of the application and thus in particular all personal data mentioned here.
+        \n
+        (4) Several authorizations are required to use the application in its full functional scope. These are required to enable all required functions and processes. The following authorizations are relevant here:
+        \n
+            - INTERNET AND ACCESS_NETWORK_STATE (Internet access and network connections)
+                for connection to the DHBW servers for retrieving and sending data
+            - CAMERA (camera)
+                for the creation of media by the user
+            - RECORD AUDIO (audio recording)
+                for the creation of media by the user
+            - VIBRATE (vibration function)
+                Vibration during push messages
+            - READ AND WRITE EXTERNAL STORAGE
+                read and write access to external storage for saving and loading media or backups
+        \n\n
+        4. Further functions and offers of our application are:
+        \n
+        (1) In addition to the functions for local use without an Internet connection of the application, we offer various functions that you can use if you are interested or need them. These include forms for the following purposes:
+        \n
+            - Contact with DHBW, support requests
+            - Contacting other users
+            - Registration (creating an account)
+            - Logging in to an account
+            - Editing an account
+        \n
+        As a rule, you must provide personal data that we use to perform the relevant function and to which the aforementioned data processing principles apply. In addition to the respective form fields, the following data can also be saved automatically:
+        \n
+            - IP address
+            - Date and time of the request
+        \n
+        For the processing of the data, your consent will be obtained in connection with the completion of the form and reference will be made to this privacy policy. The legal basis is Art. 6 para. 1 sentence 1 lit. a DS-GVO. When contacting other users, it is also possible to deactivate the request for the user\'s consent in order to deactivate an individual request. This function is deactivated by default.
+        \n
+        The aforementioned data will remain stored as long as they are necessary or you request their deletion.
+        \n
+        (2) In rare cases we use external service providers to process your data. These have been carefully selected and commissioned by us, are bound by our instructions and are checked regularly.
+        \n
+        (3) Furthermore, we may pass on your personal data to third parties if we offer campaigns, competitions, contract conclusions or similar services together with partners. You will receive more detailed information on this when you provide your personal data or in the description of the offer below.
+        \n
+        (4) If our service providers or partners are based in a country outside the European Economic Area (EEA), we will inform you about the consequences of this circumstance in the description of the offer.
+        \n
+        5. Opposition or revocation against the processing of your data
+        \n
+        (1) If you have given your consent to the processing of your data, you can revoke this consent at any time. Revocation of consent shall not affect the lawfulness of the processing carried out on the basis of the consent until revocation.
+        \n
+        (2) Insofar as we base the processing of your personal data on the weighing of interests in accordance with Art. 6 Paragraph 1 S. 1 lit. f of the DS-GVO, you can lodge an objection to the processing. If you do so, please explain the reasons why we should not process your personal data as we have done. In the event of your justified objection, we will examine the facts of the case and will either stop or adapt the data processing or show you our compelling reasons worthy of protection on the basis of which we will continue the processing.
+        \n\n
+        6. Up-to-dateness of the data protection information
+        \n
+        This privacy policy is currently valid and has the status June 2020.
+    </string>
+    <string name="menu_dataProtection">Data Protection</string>
+    <string name="menu_impressum">Imprint</string>
+    <string name="sec_none">No entry present for this degree</string>
+</resources>

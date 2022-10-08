@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/nav_home">
+
+    <fragment
+            android:id="@+id/nav_home"
+            android:name="dhbw.verwaltung.ui.home.HomeFragment"
+            android:label="@string/menu_home"
+            tools:layout="@layout/fragment_home">
+
+        <action
+                android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+                app:destination="@id/nav_home_second"/>
+    </fragment>
+            
+    <fragment
+            android:id="@+id/nav_home_second"
+            android:name="dhbw.verwaltung.ui.home.HomeSecondFragment"
+            android:label="@string/home_second"
+            tools:layout="@layout/fragment_home_second">
+        <action
+                android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+                app:destination="@id/nav_home"/>
+
+        <argument
+                android:name="myArg"
+                app:argType="string"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/nav_profile"
+            android:name="dhbw.verwaltung.ui.profile.ProfileFragment"
+            android:label="@string/menu_profile"
+            tools:layout="@layout/fragment_profile"/>
+
+    <fragment
+            android:id="@+id/nav_vorlesung"
+            android:name="dhbw.verwaltung.ui.vorlesung.VorlesungFragment"
+            android:label="@string/menu_vorlesung"
+            tools:layout="@layout/fragment_vorlesung"/>
+
+    <fragment
+            android:id="@+id/nav_professors"
+            android:name="dhbw.verwaltung.ui.professors.ProfessorsFragment"
+            android:label="@string/menu_professors"
+            tools:layout="@layout/fragment_professors"/>
+
+    <fragment
+            android:id="@+id/nav_secretariat"
+            android:name="dhbw.verwaltung.ui.secretariat.SecretariatFragment"
+            android:label="Secretariat"
+            tools:layout="@layout/fragment_secretariat"/>
+  
+    <fragment 
+            android:id="@+id/nav_impressum"
+            android:name="dhbw.verwaltung.ui.impressum.ImpressumFragment"
+            android:label="@string/menu_impressum"
+            tools:layout="@layout/fragment_impressum"/>
+  
+    <fragment
+            android:id="@+id/nav_settings"
+            android:name="dhbw.verwaltung.ui.settings.SettingsFragment"
+            android:label="@string/menu_settings"/>
+
+            
+    <fragment
+            android:id="@+id/nav_data_protection" android:name="dhbw.verwaltung.ui.data_protection.DataFragment"
+            android:label="Datenschutzerklärung" tools:layout="@layout/fragment_data_protection"/>
+</navigation>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".ui.profile.ProfileFragment"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="#FFFFFF">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_greetings"
+            android:text="@string/profile_greetings"
+            android:textSize="30sp"
+            android:gravity="center"/>
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"/>
+
+    <TextView
+            android:text="@string/profile_viewContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_nameView"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/menu_profile"
+            android:ems="10"
+            android:id="@+id/profile_editName"
+            android:visibility="gone"
+            android:autofillHints="name"
+            android:textSize="14sp"
+            android:hint="@string/profile_hint"/>
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"/>
+
+    <TextView
+            android:text="@string/profile_viewContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_matNrView"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:text="@string/menu_profile"
+            android:ems="10"
+            android:id="@+id/profile_editMatNr"
+            android:visibility="gone"
+            android:autofillHints="name"
+            android:textSize="14sp"
+            android:hint="@string/profile_hint"/>
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"/>
+
+    <TextView
+            android:text="@string/profile_viewContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_mailView"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/profile_editMail"
+            android:visibility="gone"
+            android:autofillHints="email, E-mail, Email, mail"
+            android:textSize="14sp"
+            android:hint="@string/profile_hint"/>
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"/>
+
+    <TextView
+            android:text="@string/profile_viewContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_classView"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textShortMessage"
+            android:ems="10"
+            android:id="@+id/profile_editClass"
+            android:visibility="gone"
+            android:autofillHints="email, E-mail, Email, mail"
+            android:textSize="14sp"
+            android:hint="@string/profile_hint"/>
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"/>
+
+    <TextView
+            android:text="@string/profile_viewContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_majorView"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textShortMessage|textAutoCorrect"
+            android:text="@string/menu_profile"
+            android:ems="10"
+            android:id="@+id/profile_editMajor"
+            android:visibility="gone"
+            android:autofillHints="name"
+            android:textSize="14sp"
+            android:hint="@string/profile_hint"/>
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"/>
+
+    <TextView
+            android:text="@string/profile_viewContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_deepeningView"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textShortMessage|textAutoCorrect"
+            android:text="@string/menu_profile"
+            android:ems="10"
+            android:id="@+id/profile_editDeepening"
+            android:visibility="gone"
+            android:autofillHints="name"
+            android:textSize="14sp"
+            android:hint="@string/profile_hint"/>
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    <Button
+            android:text="@string/profile_saveChanges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_saveChanges"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="bottom|center_horizontal"/>
+</LinearLayout>

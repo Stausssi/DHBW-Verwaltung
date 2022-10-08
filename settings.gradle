@@ -1,0 +1,2 @@
+rootProject.name='dhbw-verwaltung'
+include ':app'
